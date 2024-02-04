@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    background-color: #FFE7E7;
+}
+
+h1{
+    font-weight: 1000px;
+    font-size: 3rem;
+    color: darkslateblue;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5%;
+} 
+h2{
+    font-weight: 600px;
+    font-size: 2rem;
+    color: rgb(209, 132, 38);
+    text-align: center;
+    justify-content: center;
+    margin-top: 10%;
+}  
+.row{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 20px;
+    
+}
+.row .digits{
+    height: 50px;
+    width: 50px;
+    /* padding: 25px;
+    outline: none; */
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid black;
+} 
+/* .row input{
+    height: 50px;
+    width: 50px;
+    padding: 25px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+}  */
+
+
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0px;
+}
+.container{
+    background-color: aliceblue;
+    width: 500px;
+    border-radius: 30px;
+    padding: 25px;
+    text-align: center;
+}
+
+/* .container div{
+    font-size: 18px;
+    color: #555;
+} */
+
+.btn{
+    height: 50px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.active{
+    background: skyblue;
+}
